@@ -1,0 +1,113 @@
+.slider-nav{
+	margin-top: 10px;
+}
+.arch-header{
+	margin-top: -20px;
+	width: 100%;
+	filter: gray;
+      -webkit-filter: grayscale(1); 
+      -webkit-transition: all .8s ease-in-out;
+}
+
+.arch-header:hover{
+	filter: none;
+	-webkit-filter: grayscale(0);
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column{
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+  float:left;
+}
+
+.right{
+	text-align: right;
+	margin-top: 70%;
+}
+
+.caption{
+	margin-left: 40%;
+	margin-top: 25%;
+}
+
+.next{
+	float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 80%;
+  }
+}
+
+.column h1{
+	font-size: 50px;
+	font-family: "DrukWide-Bold";
+	color: #1a1a1a;
+	position:relative;
+	text-align: right;
+	float: right;
+}
+
+.column h2{
+	font-size: 14px;
+	font-family: "GT-America-Expanded-Medium";
+	color: #1a1a1a;
+	position:relative;
+	float: left;
+	text-transform: uppercase;
+}
+
+.column h3{
+	font-size: 20px;
+	font-family: "DrukWide-Bold";
+	color: #1a1a1a;
+	position:relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.column h4{
+	font-size: 11px;
+	font-family: "GT-America-Extended-Regular";
+	color: #1a1a1a;
+	line-height: 22px;
+	margin-left: 5px;
+}
+
+.column h5{
+	font-size: 9px;
+	font-family: "GT-America-Extended-Regular";
+	color: #1a1a1a;
+	line-height: 12px;
+	margin-left: 5px;
+}
+
+.column h6{
+	font-size: 14px;
+	font-family: "GT-America-Expanded-Bold";
+	color: #1a1a1a;
+	position:relative;
+	float:left;
+}
+
+.column p{
+	font-family: "GT-America-Extended-Regular";
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.column img{
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+}
